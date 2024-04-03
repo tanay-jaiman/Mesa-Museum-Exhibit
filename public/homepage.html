@@ -1,0 +1,101 @@
+<div class="div">
+    <div class="div-2">
+      <img
+        loading="lazy"
+        srcset="https://previews.123rf.com/images/attitude/attitude1507/attitude150700001/42070451-old-white-paper-with-black-burnt-edges-and-vintage-grunge-background-texture-stained-gray-background.jpg"
+        class="img"
+      />
+      <div class="div-3">
+        <div class="div-4">
+          Famous Faces and
+          <br />
+          Places of Mesa
+        </div>
+        <div class="div-5">Start exploring</div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .div {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .div-2 {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      min-height: 1080px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 60px;
+    }
+    @media (max-width: 991px) {
+      .div-2 {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    }
+    .img {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-3 {
+      position: relative;
+      display: flex;
+      width: 1245px;
+      max-width: 100%;
+      flex-direction: column;
+      margin: 174px 0 80px;
+    }
+    @media (max-width: 991px) {
+      .div-3 {
+        margin: 40px 0;
+      }
+    }
+    .div-4 {
+      color: #000;
+      text-align: center;
+      font-feature-settings: "clig" off, "liga" off;
+      letter-spacing: -4px;
+      font: italic 400 200px/240px IM FELL English, -apple-system, Roboto,
+        Helvetica, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-4 {
+        max-width: 100%;
+        font-size: 40px;
+        line-height: 53px;
+      }
+    }
+    .div-5 {
+      font-feature-settings: "clig" off, "liga" off;
+      align-items: center;
+      border-radius: 8px;
+      box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      background-color: #3d3630;
+      align-self: center;
+      margin-top: 103px;
+      width: 598px;
+      max-width: 100%;
+      color: #fff;
+      justify-content: center;
+      padding: 24px 60px;
+      font: 700 40px/130% Inria Serif, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-5 {
+        margin-top: 40px;
+        padding: 0 20px;
+      }
+    }
+  </style>
