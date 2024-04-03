@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import React, {useEffect } from 'react';
-import Homepage from './Homepage.jsx'
+import Homepage from './Homepage/Homepage.jsx'
 import Menu from './Menu/Menu.jsx'
 
 function App() {
