@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function MyComponent() {
+const Homepage = () => {
   return (
     <>
       <div className="div">
@@ -98,3 +98,4 @@ function MyComponent() {
   );
 }
 
+export default Homepage
