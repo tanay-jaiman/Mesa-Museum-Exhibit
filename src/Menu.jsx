@@ -2,7 +2,7 @@ import * as React from "react";
 import './Homepage.css';
 
 
-const Homepage = () => {
+const Menu = () => {
   return (
     <>
       <div className="div">
@@ -13,16 +13,13 @@ const Homepage = () => {
         />
         <div className="div-2">
           <div className="div-3">
-            Famous Faces and
-            <br />
-            Places of Mesa
+            Menu
           </div>
-          <div className="div-4">Start exploring</div>
-          
+          <a><div className="div-4">Start exploring</div></a>
         </div>
       </div>
     </>
   );
 }
 
-export default Homepage
+export default Menu
