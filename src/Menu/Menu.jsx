@@ -16,8 +16,8 @@ const Menu = () => {
         <div className="v77_2">
           <div className="v77_3"></div>
           <span className="v77_4">Famous Faces and Places of Mesa</span>
-          <a href="#" style={{ textDecoration: "none" }} className="v78_85">
-            Place 1
+          <a href="/mesatemple" style={{ textDecoration: "none" }} className="v78_85">
+            Mesa Temple
           </a>
           <a href="#" style={{ textDecoration: "none" }}>
             <div className="v78_79"></div>
